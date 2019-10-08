@@ -1,0 +1,70 @@
+html {
+  font-family: sans-serif;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  	background-color: #eff2ae;
+  	margin: 0;
+}
+.navtop {
+	background-color: #f0f48d;
+	height: 60px;
+	width: 100%;
+	border: 0px;
+}
+.navtop a {
+	padding: 0 5px;
+	text-decoration: none;
+	font-size: 40px;
+	font-weight: bold;
+	float: left;
+	border-color: black;
+	border-left: 2px
+    background-color: #ffffff;	
+}
+.navtop a:hover {
+	color: #ffffff;
+}
+body.loggedin {
+	background-color: #f3f4f7;
+}
+.content {
+	width: 1000px;
+	margin: 0 auto;
+}
+.content h2 {
+	margin: 0;
+	padding: 25px 0;
+	font-size: 22px;
+	border-bottom: 1px solid #e0e0e3;
+	color: #4a536e;
+}
+.content > p, .content > div {
+	box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.1);
+	margin: 25px 0;
+	padding: 25px;
+	background-color: #fff;
+}
+.content > p table td, .content > div table td {
+	padding: 5px;
+}
+.content > p table td:first-child, .content > div table td:first-child {
+	font-weight: bold;
+	color: #4a536e;
+	padding-right: 15px;
+}
+.content > div p {
+	padding: 5px;
+	margin: 0 0 10px 0;
+}
+
+.spoffer {
+    float: right;
+    width: 400px;
+    height: 800px;
+    border: 1px;
+    border-style: solid;
+    border-color: #f0f48d;
+}
